@@ -48,6 +48,8 @@ password:k5g4589VT3WmsgKimh8XHTtuShBwA3MANRzbIddL/u/mnAyLEfuFqKgzkaRhO/1WSQrc99q
 
 `ConfigTools.decrypt(publicKey, password)`
 
+![](./decode.png)
+
 `java -jar bruid_decode.jar`
 
 ```
