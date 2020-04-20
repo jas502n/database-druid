@@ -57,3 +57,9 @@ Set publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALBwFqhTN2iIiq3PLM9m0d/g6QPUXaDjG
 Set password: k5g4589VT3WmsgKimh8XHTtuShBwA3MANRzbIddL/u/mnAyLEfuFqKgzkaRhO/1WSQrc99qJJhmwcB4cGX06Kw==
 解密明文密码: jas502n
 ```
+
+## 常用数据库配置文件位置
+
+`application.properties`
+
+`grep -r '=jdbc:mysql://' -n $(find / -name "*application.properties*")`
